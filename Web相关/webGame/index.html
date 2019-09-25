@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #canvas {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 画布canvas -->
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <script>
+        var canvas = document.getElementById('canvas');
+
+        /*创建2D绘画环境
+        var draw = canvas.getContext('2d');
+        //设置填充颜色
+        draw.fillStyle = 'green';
+        //绘制矩形draw.fillRect(x,y,w,h)  xy表示矩形开始的坐标 wh表示矩形大小
+        draw.fillRect(10, 10, 100, 100)
+            //清除，范围为一个矩形
+        draw.clearRect(25, 25, 100, 100)*/
+
+        /*var draw = canvas.getContext('2d');
+        var w = 0;
+        draw.fillStyle = 'red';
+        setInterval(function() {
+            //需要清除上一帧的内容，实现移动效果
+            draw.clearRect(0, 0, 500, 500); //全画布清除
+            draw.fillRect(0, 0, w++, 100);
+        }, 50)*/
+    </script>
+</body>
+
+</html>
